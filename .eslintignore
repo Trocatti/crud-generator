@@ -1,0 +1,2 @@
+#Ignore node_module
+src/components/node_modules/*

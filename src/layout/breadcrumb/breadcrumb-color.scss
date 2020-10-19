@@ -1,0 +1,23 @@
+@import "@/assets/scss/core/variable-colors";
+
+.page-titles {
+  background: $white;
+  box-shadow: $shadow;
+  .breadcrumb {
+    background: transparent;
+    .breadcrumb-item + .breadcrumb-item::before {
+      color: $gray-400;
+    }
+    a {
+      &.active {
+        color: $themecolor;
+      }
+      &.router-link-exact-active {
+        color: $blue;
+      }
+      &:hover {
+        color: $themecolor-alt;
+      }
+    }
+  }
+}

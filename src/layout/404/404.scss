@@ -1,0 +1,30 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "@/assets/scss/core/variable.scss";
+
+.error-box {
+  background: url("../../assets/images/erro-404.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: $font-family;
+
+  .error-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    h1 {
+      font-size: 210px;
+      font-weight: 600;
+    }
+  }
+}

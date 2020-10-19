@@ -1,0 +1,14 @@
+@import "@/assets/scss/core/variable-colors";
+
+.login-register {
+  background-color: $body-bg;
+  
+  .login-box {
+    .forgot-pass{
+      color: $gray-900;
+    }
+    .forgot-pass:hover {
+      color: $themecolor;
+    }
+  }
+}

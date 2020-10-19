@@ -1,0 +1,41 @@
+@import "@/assets/scss/core/variable";
+
+@media (max-width: 767px) {
+  >.nav-item.show .dropdown-menu {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+  }
+
+  .topbar .top-navbar .navbar-header .navbar-brand {
+    .logo-md {
+      display: none;
+    }
+
+    .logo-xs {
+      display: inline-block;
+    }
+  }
+
+
+  .app-search {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar {
+    .top-navbar {
+      .navbar-header {
+        width: 70px;
+        text-align: center;
+        flex-shrink: 0;
+        padding-left: 0;
+        transition: $transition;
+      }
+    }
+  }
+}

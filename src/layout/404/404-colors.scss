@@ -1,0 +1,12 @@
+@import "@/assets/scss/core/variable-colors";
+
+.error-box {
+  .error-body {
+    h1 {
+      text-shadow: 4px 4px 0 $white, 6px 6px 0 $gray-700;
+    }
+    h3 {
+      color: $white;
+    }
+  }
+}

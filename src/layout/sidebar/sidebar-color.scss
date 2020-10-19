@@ -1,0 +1,111 @@
+@import "@/assets/scss/core/variable-colors";
+
+.left-sidebar {
+  background: $sidebar;
+  box-shadow: $shadow;
+
+  .sidebar-nav {
+    > ul {
+      > li {
+        .sidebar-title {
+          color: $white;
+        }
+
+        > a {
+          &.activeCollapse {
+            color: $sidebar-alt;
+            background: $themecolor-alt;
+          }
+
+          &:hover {
+            color: $sidebar-alt;
+            background: $themecolor-alt;
+
+            svg {
+              color: $sidebar-alt;
+            }
+
+            &::after {
+              border-color: $sidebar-alt;
+            }
+          }
+
+          &.collapsed {
+            background: transparent;
+            color: $sidebar-text;
+
+            &::after {
+              border-color: $sidebar-text;
+            }
+
+            &:hover {
+              color: $sidebar-alt;
+              background: $themecolor-alt;
+
+              svg {
+                color: $sidebar-alt;
+              }
+
+              &::after {
+                border-color: $sidebar-alt;
+              }
+            }
+          }
+
+          &::after {
+            border-color: $sidebar-alt;
+          }
+        }
+
+        > ul {
+          > li {
+            > a {
+              color: $sidebar-icons;
+              border-color: $border-color;
+
+              &:hover {
+                border-color: $border-color;
+                color: $sidebar;
+                background: $themecolor-alt;
+              }
+            }
+          }
+        }
+
+        &.nav-small-cap {
+          color: $text-muted;
+        }
+
+        &.nav-devider {
+          background: $border-color;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar {
+    .sidebar-nav {
+      > ul {
+        > li {
+          > a {
+            background: $sidebar;
+            &.activeCollapse {
+              color: $sidebar-alt;
+              background: $themecolor-alt;
+            }
+
+            &:hover {
+              color: $sidebar-alt;
+              background: $themecolor-alt;
+            }
+          }
+          > ul {
+            background: $sidebar-alt;
+          }
+        }
+      }
+    }
+  }
+}

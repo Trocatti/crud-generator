@@ -1,0 +1,321 @@
+@import "./variable-colors";
+
+// App
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $gray-600;
+  background-color: $body-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($color: $gray-600, $alpha: 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $gray-700;
+}
+
+a {
+  &:not([href]):not([tabindex]) {
+    color: $white;
+  }
+
+  &.link {
+    color: $body-color;
+
+    &:hover,
+    &:focus {
+      color: $themecolor;
+    }
+  }
+}
+
+// Topbar
+.topbar {
+  background: $themecolor;
+}
+
+.topbar {
+  .top-navbar .navbar-header .navbar-brand .light-logo {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.page-wrapper {
+  background: $body-bg;
+}
+
+// Card
+.card {
+  .card-subtitle {
+    color: $text-muted;
+  }
+}
+
+.card-group {
+  .card {
+    border-right-color: $border-color;
+  }
+}
+
+// List-style-none
+ul.list-style-none {
+  li {
+    a {
+      color: $body-color;
+
+      &:hover {
+        color: $themecolor;
+      }
+    }
+  }
+}
+
+// Background Color
+.bg-primary {
+  background-color: #fb9678 !important;
+}
+
+a.bg-primary {
+  &:hover,
+  &:focus {
+    background-color: #fa6f46 !important;
+  }
+}
+
+button.bg-primary {
+  &:hover,
+  &:focus {
+    background-color: #fa6f46 !important;
+  }
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+a.bg-secondary {
+  &:hover,
+  &:focus {
+    background-color: #1069c2 !important;
+  }
+}
+
+button.bg-secondary {
+  &:hover,
+  &:focus {
+    background-color: #1069c2 !important;
+  }
+}
+
+.bg-success {
+  background-color: $success !important;
+}
+
+a.bg-success {
+  &:hover,
+  &:focus {
+    background-color: #008f6c !important;
+  }
+}
+
+button.bg-success {
+  &:hover,
+  &:focus {
+    background-color: #008f6c !important;
+  }
+}
+
+.bg-info {
+  background-color: $info !important;
+}
+
+a.bg-info {
+  &:hover,
+  &:focus {
+    background-color: #0286c1 !important;
+  }
+}
+
+button.bg-info {
+  &:hover,
+  &:focus {
+    background-color: #0286c1 !important;
+  }
+}
+
+.bg-warning {
+  background-color: $warning !important;
+}
+
+a.bg-warning {
+  &:hover,
+  &:focus {
+    background-color: #d19e01 !important;
+  }
+}
+
+button.bg-warning {
+  &:hover,
+  &:focus {
+    background-color: #d19e01 !important;
+  }
+}
+
+.bg-danger {
+  background-color: $danger !important;
+}
+
+a.bg-danger {
+  &:hover,
+  &:focus {
+    background-color: #dc3f4e !important;
+  }
+}
+
+button.bg-danger {
+  &:hover,
+  &:focus {
+    background-color: #dc3f4e !important;
+  }
+}
+
+.bg-light {
+  background-color: $light !important;
+}
+
+a.bg-light {
+  &:hover,
+  &:focus {
+    background-color: #dae0e5 !important;
+  }
+}
+
+button.bg-light {
+  &:hover,
+  &:focus {
+    background-color: #dae0e5 !important;
+  }
+}
+
+.bg-dark {
+  background-color: $dark !important;
+}
+
+a.bg-dark {
+  &:hover,
+  &:focus {
+    background-color: #1d2124 !important;
+  }
+}
+
+button.bg-dark {
+  &:hover,
+  &:focus {
+    background-color: #1d2124 !important;
+  }
+}
+
+.bg-cyan {
+  background-color: #01c0c8 !important;
+}
+
+a.bg-cyan {
+  &:hover,
+  &:focus {
+    background-color: $cyan !important;
+  }
+}
+
+button.bg-cyan {
+  &:hover,
+  &:focus {
+    background-color: #018f95 !important;
+  }
+}
+
+.bg-purple {
+  background-color: $purple !important;
+}
+
+a.bg-purple {
+  &:hover,
+  &:focus {
+    background-color: #8d63da !important;
+  }
+}
+
+button.bg-purple {
+  &:hover,
+  &:focus {
+    background-color: #8d63da !important;
+  }
+}
+
+.bg-white {
+  background-color: $white !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-theme {
+  background-color: $themecolor;
+}
+
+.bg-inverse {
+  background-color: $gray-900;
+}
+
+// Color
+.color-primary {
+  color: $primary !important;
+}
+
+.color-secondary {
+  color: $secondary !important;
+}
+
+.color-success {
+  color: $success !important;
+}
+
+.color-info {
+  color: $info !important;
+}
+
+.color-warning {
+  color: $warning !important;
+}
+
+.color-danger {
+  color: $danger !important;
+}
+
+.color-light {
+  color: $light !important;
+}
+
+.color-dark {
+  color: $dark !important;
+}
+
+.color-cyan {
+  color: $cyan !important;
+}
+
+.color-purple {
+  color: $purple !important;
+}
+
+.color-white {
+  color: $white !important;
+}
+
+.color-theme {
+  color: $themecolor;
+}
+
+.color-inverse {
+  color: $gray-900;
+}

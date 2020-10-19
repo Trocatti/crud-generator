@@ -1,0 +1,19 @@
+.page-titles {
+  padding: 14px 10px;
+  margin: 0 -25px 25px -25px;
+  h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .breadcrumb {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;    
+    .breadcrumb-item + .breadcrumb-item::before {
+      font-size: 11px;
+    }
+    .breadcrumb-item.active {
+      font-weight: 500;
+    }
+  }
+}

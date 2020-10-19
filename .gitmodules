@@ -1,0 +1,12 @@
+[submodule "src/assets"]
+	path = src/assets
+	url = http://git.dynamix.com.br/hae/prototipos/assets.git
+[submodule "src/components"]
+	path = src/components
+	url = http://git.dynamix.com.br/hae/prototipos/components.git
+[submodule "src/plugins"]
+	path = src/plugins
+	url = http://git.dynamix.com.br/hae/prototipos/plugins.git
+[submodule "src/layout"]
+	path = src/layout
+	url = http://git.dynamix.com.br/hae/prototipos/layout.git

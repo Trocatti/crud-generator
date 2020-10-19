@@ -1,0 +1,119 @@
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+@media (min-width: 1024px) {
+  .page-wrapper,
+  .footer {
+    margin-left: 230px;
+  }
+}
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media (min-width: 768px) {
+  .mini-sidebar {
+    .page-wrapper {
+      margin-left: 70px;
+    }
+  }
+
+  .navbar-header {
+    width: 230px;
+    flex-shrink: 0;
+
+    .navbar-brand {
+      padding-top: 0px;
+    }
+  }
+}
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 0px 15px 0px 15px;
+    overflow: hidden;
+  }
+
+  /*Header*/
+  .topbar {
+    width: 100%;
+
+    .top-navbar {
+      flex-direction: row;
+      flex-wrap: nowrap;
+
+      .navbar-header {
+        .hidden-xs {
+          display: none;
+        }
+      }
+
+      .navbar-collapse {
+        display: flex;
+        width: 100%;
+      }
+
+      .navbar-nav {
+        flex-direction: row;
+
+        > .nav-item.show {
+          position: static;
+
+          .dropdown-menu {
+            width: 100%;
+            margin-top: 0px;
+          }
+        }
+
+        .dropdown-menu {
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .error-page {
+    .footer {
+      position: fixed;
+      bottom: 0px;
+      z-index: 10;
+    }
+  }
+
+  .error-box {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  .error-body {
+    padding-top: 10%;
+
+    h1 {
+      font-size: 100px;
+      font-weight: 600;
+      line-height: 100px;
+    }
+  }
+
+  .login-register {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .login-box {
+    width: 90%;
+  }
+
+  .login-sidebar {
+    padding: 10% 0;
+
+    .login-box {
+      position: relative;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '@/assets/scss/core/variable-colors';
+
+.topbar {
+  .top-navbar {
+    .navbar-header {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-nav>.nav-item>span {
+      color: $white;
+    }
+  }
+
+  .dropdown-menu {
+    box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    border-color: $border-color;
+
+    .dropdown-item {
+      &:active {
+        color: $white;
+        background: $themecolor;
+      }
+
+      .active {
+        background: transparent;
+        color: $themecolor;
+      }
+    }
+  }
+
+}
+
+.app-search {
+  .form-control {
+    border-color: transparent;
+  }
+}

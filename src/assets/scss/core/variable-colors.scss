@@ -1,0 +1,123 @@
+/*Theme Colors*/
+$themecolor: #2b2b2b;
+$themecolor-alt: #dfe3e7; 
+$sidebar: #007bff; 
+$sidebar-alt: #2a93ff;
+$sidebar-text: #fff;
+$sidebar-icons: #fff;
+$shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+
+// Color system
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #4f5467 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #03a9f3 !default;
+$indigo: #6610f2 !default;
+$purple: #ab8ce4 !default;
+$pink: #e83e8c !default;
+$red: #e46a76 !default;
+$orange: #fb9678 !default;
+$yellow: #fec107 !default;
+$green: #00c292 !default;
+$teal: #20c997 !default;
+$cyan: #01c0c8 !default;
+$primary: #fb9678 !default;
+$text-muted: $gray-600 !default;
+$loader: #1976d2 !default;
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800
+);
+
+$theme-colors: (
+  primary: $orange,
+  secondary: $loader,
+  success: $green,
+  info: $blue,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  cyan: $cyan,
+  dark: $gray-800,
+  purple: $purple
+);
+
+$primary: $orange;
+$secondary: $loader;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$cyan: $cyan;
+$dark: $gray-800;
+$purple: $purple;
+
+// Body
+$body-bg: #edf1f5;
+$body-color: $gray-900 !default;
+
+// Headings
+$headings-color: inherit !default;
+
+// Breadcrumb
+$breadcrumb-bg: $white;
+
+// Buttons
+$btn-secondary-border: $gray-300;
+
+// Progress bars
+$progress-bg: $gray-100;
+
+// Tables
+$table-bg-accent: $gray-100;
+$table-bg-hover: $gray-100;
+$table-hover-bg: $gray-100 !default;
+
+// Components
+$component-active-color: $white !default;
+$component-active-bg: $themecolor !default;
+
+// Dropdowns
+$dropdown-border-color: $gray-200;
+$dropdown-divider-bg: $gray-100;
+
+// Forms
+$input-group-addon-bg: $gray-100;
+$input-border-color: $gray-200;
+$input-group-addon-border-color: $gray-200;
+$input-btn-focus-color: rgba(0, 0, 0, 0.25) !default;
+$input-focus-border-color: rgba(0, 0, 0, 0.1) !default;
+$custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
+$input-btn-focus-box-shadow: transparent !default;
+$custom-select-focus-box-shadow: transparent !default;
+
+// Border
+$border-color: $gray-200 !default;
+
+//Tabs
+$nav-tabs-link-active-bg: $white !default;
+
+// Cards
+$card-border-color: transparent !default;

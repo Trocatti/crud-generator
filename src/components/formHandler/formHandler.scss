@@ -1,0 +1,23 @@
+// override bootstrap
+.form-group {
+    min-height: 85px;
+    margin-bottom: 0;
+
+    .required {
+        &::after {
+            content: '*';
+            color: lightcoral;
+            margin-left: 0.1rem;
+        }
+    }
+
+    .custom-select {
+        font-size: 0.875rem;
+    }
+}
+
+//end
+.form-group-initial {
+    min-height: initial;
+    margin-bottom: 1rem;
+}

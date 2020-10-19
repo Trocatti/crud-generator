@@ -1,0 +1,36 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "@/assets/scss/core/variable.scss";
+
+.login-register {
+  font-family: $font-family;
+
+  height: 100%;
+  width: 100%;
+  padding: 5% 0;
+
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .login-box {
+    width: 400px;
+    margin: 0 auto;
+    opacity: 1;
+
+    .password-loss {
+      font-size: 13px;
+      float: right;
+    }
+  }
+
+  .btn-rounded {
+    border-radius: 60px;
+    padding: 7px 18px;
+  }
+
+  img {
+    width: 25rem;
+  }
+}
